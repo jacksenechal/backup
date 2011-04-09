@@ -1,0 +1,22 @@
+Summary
+=================================
+
+I need a backup program which will allow me to specify the items to back up within my home directory, and then automatically sync them to at least one but preferrably two storage devices.
+
+Desired Features
+=================================
+
+* specify backup items
+* create backup file (.tar or .tar.gz, probably)
+* when STARTECH is plugged in, automatically rsync backup file to it
+* when connected to internet, automatically rsync backup file to server
+* run  backups and syncs at scheduled intervals
+* intelligently postpone sync if device is not available & sync as soon as it becomes so
+
+Current Features of backup.rb
+=================================
+
+* specify source and destination directories
+* backs up daily to destination/daily/Monday, .../Tuesday, etc.
+* backs up weekly to destination/weekly/two_weeks_ago, etc.
+* backs up monthly on the first of the month
