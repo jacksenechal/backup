@@ -1,7 +1,7 @@
 Summary
 =================================
 
-I need a backup program which will allow me to specify the items to back up within my home directory, and then automatically sync them to at least one but preferrably two storage devices.
+I want a backup program which will allow me to specify the items to back up within my home directory, and then automatically sync them to at least one but preferrably two or more storage devices. This project is a very simple beginning, which I hope will morph into something robust and glorious as I get the chance to add features.
 
 Desired Features
 =================================
